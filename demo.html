@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>blogsite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styletrav.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-3 " >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Adventurer</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-underline">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Itineraries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nomedic living</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Travel Trips
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Best Travel Tips</a></li>
+                  <li><a class="dropdown-item" href="#">Travel Resources</a></li>
+                  <li><a class="dropdown-item" href="#">Budget Travel Tips</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span> Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="main-section">
+      <div class="background">
+        <img src="johannes-plenio-hvrpOmuMrAI-unsplash.jpg" alt="">
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            
+          </div>
+          <div class="col" id="col2">
+            
+            <h1>Adventure is for <br/> everyone! </h1>
+            <h2>Where Do You Want To Start Your <br/> Next Adventure?</h2>
+            <div class="row justify-content-center" >
+              <div class="col-12 col-md-10 col-lg-8 " >
+                  <form class="card card-sm" id="search-bar">
+                      <div class="card-body row no-gutters align-items-center">
+                          <div class="col-auto">
+                              <i class="fas fa-search h4 text-body"></i>
+                          </div>
+                          <!--end of col-->
+                          <div class="col">
+                              <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search Your Destination">
+                          </div>
+                          <!--end of col-->
+                          <div class="col-auto">
+                              <button class="btn btn-lg btn-success" type="submit">Search</button>
+                          </div>
+                          <!--end of col-->
+                      </div>
+                  </form>
+              </div>
+              <!--end of col-->
+            </div>
+
+            <p>Popular Searches:  </p>
+            <span> Paris , Dubai, Scottland, Japan</span>
+            
+           
+          </div>
+          
+        </div>
+      </div>
+      <div class="company-logos"><img src="Featured-Logos-Front-Page.webp" alt=""></div>
+      
+    </section>
+    <section class="post-section">
+      <div class="heading" id="post-heading">
+        <h2>Latest Blog posts</h2>
+      </div>
+      <div class="card-sec">
+        <div class="card" style="width: 28rem;">
+          <img src="img1.avif" class="card-img-top" alt="..." id="img-1">
+          <div class="card-body">
+            <a href="#" class="card-link link-underline-light">The Best Places to See Sunsets</a>
+            
+          </div>
+        </div>
+        <div class="card" style="width: 28rem;">
+          <img src="img-2.jpg" class="card-img-top" alt="..." id="img-2">
+          <div class="card-body">
+            <a href="#" class="card-link link-underline-light">The Best Beaches for Relaxing</a>
+            
+          </div>
+        </div>
+        <div class="card" style="width: 28rem;">
+          <img src="img-3.jpg" class="card-img-top" alt="..." id="img-3">
+          <div class="card-body">
+            <a href="#" class="card-link link-underline-light">The Healing Power of Nature</a>
+            
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn " id="blog-post-btn"
+        style="--bs-btn-padding-y: .65rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 2rem;">
+        Read More Posts Here
+      </button>
+    </section>
+
+    <section class="suggestion">
+      <div class="heading" id="post-heading2">
+        <h2>How can we help you travel more?</h2>
+      </div>
+      <div class="card-sec" id="card-section-2">
+        <div class="card rounded-4 text-bg-dark" style="width: 27rem;">
+          <img src="img4.jpg" class="card-img-top" alt="..." id="img-4">
+          <div class="card-img-overlay text-center ">
+            <i class='bx bx-location-plus bx-lg'></i>
+            <h5 class="card-title ">Destinations</h5>
+            <p class="card-text ">Explore Destinations around the world from 110 Countries on all 7 Continents.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+        <div class="card rounded-4 text-bg-dark" style="width: 27rem;">
+          
+          <img src="img-5.jpg" class="card-img-top" alt="..." id="img-5">
+          <div class="card-img-overlay text-center ">
+            <i class='bx bx-map-alt bx-lg' style='color:#ffffff'  ></i>
+            <h5 class="card-title">Itineraries</h5>
+            <p class="card-text">Discover detailed Itineraries from 3 days to 1 week for multiple destinations.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+        <div class="card rounded-4 text-bg-dark" style="width: 27rem;">
+          <img src="img-6.jpg" class="card-img-top" alt="..." id="img-6">
+          <div class="card-img-overlay text-center">
+            <i class='bx bxs-calendar bx-lg' style='color:#ffffff' ></i>
+            <h5 class="card-title">Travel Tips</h5>
+            <p class="card-text">Learn from the best. Travel tips gathered from our 10 years of full-time travel.</p>
+            <a href="#" class="stretched-link"></a>
+            
+            
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="about-sec">
+      <div class="container-2">
+        <div class="traveller-pic" >
+          <img src="traveller-3.jpg" alt="" id="trav-pic">
+        </div>
+        <div class="about-sec-content text-center">
+          <h1 id="head1">About the Founder</h1>
+          <p>Thanks for stopping by. I, Eren Yeager is the founders of one of the top 10 travel blogs in the world according to Forbes.</p>
+          <p>Leaving my secure job behind, I embarked on a life-changing journey to explore the world, uncovering its diverse cultures and breathtaking landscapes. Through the highs and lows, I discovered my true self, forever cherishing the memories that shaped my soul.</p>
+          <button type="button" class="btn " id="blog-post-btn"
+          style="--bs-btn-padding-y: .65rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 2rem;">
+          Read More About Me Here
+          </button>
+        </div>
+      </div>
+      
+    </section>
+    <section class="footer-sec">
+      <div class="container-foot">
+        <div class="abt-us">
+          <h2>About Me</h2>
+          <a href="#">About Founder</a>
+          <a href="#">Contact US</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Work with us</a>
+          <a href="#">Press and Media</a>
+
+        </div>
+        <div class="social-media">
+          <h2>Follow Me on Social Media</h2>
+          <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search Your Destination">
+
+        </div>
+        <div class="trav-resource">
+          <h2>Travel Resources</h2>
+          <a href="#">Best travel tips</a>
+          <a href="#">How to Save money to travel</a>
+          <a href="#">The ultimate travel packing list</a>
+          <a href="#">Travel Safety Tips</a>
+          <a href="#">How to Travel on a Budget</a>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
